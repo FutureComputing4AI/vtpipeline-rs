@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/usr/local/sbin/vtpipeline hashes
+/usr/local/sbin/vtpipeline hashes --date-offset 90

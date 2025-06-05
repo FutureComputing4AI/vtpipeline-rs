@@ -1,0 +1,4 @@
+#!/bin/sh
+
+/usr/local/sbin/vtpipeline scans
+/usr/local/sbin/vtpipeline scans --date-offset 90

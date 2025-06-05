@@ -1,6 +1,6 @@
 # VTPipeline
 
-A pipeline for querying hashes and downloading VT reports and files from VirusTotal. This package implements the methodology used to build the [EMBER2024](https://github.com/FutureComputing4AI/EMBER2024/) dataset.
+A pipeline for querying/downloading hashes, scan reports, and files from VirusTotal. This package implements the methodology used to build the [EMBER2024](https://github.com/FutureComputing4AI/EMBER2024/) dataset.
 
 ## Installation
 ```
@@ -20,7 +20,7 @@ data_dir = "/path/to/base"
 vt_api_key = "aabbcc"
 ```
 
-You can place this config file inside of ```/etc/vtpipeline``` or pass it as a command-line argument.
+VTPipeline searches for the config file in ```/etc/vtpipeline/``` by default, or you can pass it as a command-line argument.
 
 
 #### Configuring file thresholds

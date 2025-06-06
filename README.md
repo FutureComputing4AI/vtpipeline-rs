@@ -53,3 +53,13 @@ vtpipeline scans --date-offset 90 --diff-threshold 30
 ```
 
 
+If you use VTPipeline, please cite it using:
+
+@inproceedings{joyce2025ember,
+      title={EMBER2024 - A Benchmark Dataset for Holistic Evaluation of Malware Classifiers},
+      author={Robert J. Joyce and Gideon Miller and Phil Roth and Richard Zak and Elliott Zaresky-Williams and Hyrum Anderson and Edward Raff and James Holt},
+      year={2025},
+      booktitle={Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+}
+
+

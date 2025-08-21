@@ -1,16 +1,14 @@
 [package]
 name = "vtpipeline"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-homepage = "https://www.lps.umd.edu/"
 license = "Apache-2.0"
 authors = ["Richard Zak <rjzak@lps.umd.edu>", "Robert Joyce <rjjoyce@lps.umd.edu>", "Maya Fuchs <mfuchs@lps.umd.edu>", "Elliott Zaresky-Williams <evzares@lps.umd.edu>"]
 keywords = ["cybersecurity", "malware", "malware-research", "virustotal"]
 categories = ["command-line-utilities", "science"]
 description = "Collect files and anti-virus reports from VirusTotal to build your own collection of malicious and benign files."
-repository = "https://nabonidus.lps.umd.edu/research2code/vtpipeline-rs/"
+repository = "https://github.com/FutureComputing4AI/vtpipeline-rs/"
 build = "build.rs"
-publish = false
 
 [dependencies]
 anyhow = "1.0"
